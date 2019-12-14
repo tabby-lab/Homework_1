@@ -1,0 +1,159 @@
+body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.nav {
+    float: right}
+
+.navbar {margin: 20px; text-align: right;}
+
+header {
+background-color: white; width: 100%}
+
+.header {
+    width: 200px;
+    text-align: center;
+    background-color: rgb(231, 58, 52);
+
+}
+
+h1 {
+
+    color: #78f115;
+    margin: auto;
+    padding: 30px;
+    font-size: 28px;
+
+}
+
+h2 {
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+  }
+
+.left-align {
+    margin-left: 320px;
+}
+
+h2 {
+    font-size: 24px
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    height: 1500px;
+    ;
+}
+
+.catpic {position: relative; text-align: center; color: white; float: left; margin: 25px}
+
+.cat-text {position: absolute; bottom: 8px; font-family: sans-serif; background: black; width: 100%}
+
+
+/* why image is taking up left and right but not top and bottom?*/
+div {
+    background-image: url('assets/images/swirl_pattern/swirl_pattern.png');
+   
+  }
+
+
+
+
+/*why did i do this?*/
+.h1 {
+    background-color: #016d13;
+    border: 15px solid rgb(109, 221, 230);
+    width: 100%;
+
+
+}
+
+
+
+#bio-image {
+    margin-right: 20px;
+    width: 200px;
+    background-image: url('images/fat-cat.jpg');
+    background-size: 100%;
+    float: left;
+}
+
+
+.main-bio {
+    width: 65%;
+    background-color: orangered;
+    margin-left: 50px;
+    margin-top: 30px;
+    height: 1000px;
+    padding-left: 20px;
+    margin:  30px 160px 0px 160px;
+    
+}
+
+#contact-info {
+
+    width: 100%;
+    float: left;
+}
+
+/*why wont stick?*/
+footer {
+    background-color: #000;
+    position: fixed;
+    height: 150px;
+    bottom: 0;
+    border-top: 8px solid #e28710;
+    left: 0;
+    width: 100%;
+    color: yellow;
+    text-align: center;
+}
+
+.email {
+    padding-right: 10px
+}
+.github {
+    padding-right: 10px
+}
+.portfolio {
+    padding-right: 10px
+}
+
+
+/*what exactly does this do?*/
+
+.row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after rows */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
